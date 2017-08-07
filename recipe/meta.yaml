@@ -31,7 +31,8 @@ test:
 
 about:
   home: https://bitbucket.org/zzzeek/dogpile.cache
-  license: BSD
+  license: BSD-3-Clause
+  license_file: LICENSE
   summary: A caching front-end based on the Dogpile lock. 
 
 extra:
