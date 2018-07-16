@@ -14,14 +14,15 @@ Summary: A caching front-end based on the Dogpile lock.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dogpile.cache-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dogpile.cache-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dogpile.cache-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dogpile.cache-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dogpile.cache-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dogpile-cache-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dogpile.cache-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dogpile.cache-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dogpile.cache/badges/version.svg)](https://anaconda.org/conda-forge/dogpile.cache)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dogpile.cache/badges/downloads.svg)](https://anaconda.org/conda-forge/dogpile.cache)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dogpile.cache-green.svg)](https://anaconda.org/conda-forge/dogpile.cache) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dogpile.cache.svg)](https://anaconda.org/conda-forge/dogpile.cache) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dogpile.cache.svg)](https://anaconda.org/conda-forge/dogpile.cache) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dogpile.cache.svg)](https://anaconda.org/conda-forge/dogpile.cache) |
 
 Installing dogpile.cache
 ========================
