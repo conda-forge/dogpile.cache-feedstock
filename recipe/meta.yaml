@@ -1,6 +1,6 @@
 {% set name = "dogpile.cache" %}
-{% set version = "0.6.7" %}
-{% set sha256 = "fca7deb7c276b879b01c15c5d39b3c05701dc43b263ec3fef1e52cb851cf88ab" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "691b7f199561c4bd6e7e96f164a43cc3781b0c87bea29b7d59d859f873fd4a31" %}
 
 package:
   name: {{ name|lower }}
