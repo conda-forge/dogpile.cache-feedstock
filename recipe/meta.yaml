@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1000
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -27,13 +27,13 @@ requirements:
 
 test:
   imports:
-    - dogpile.cache 
+    - dogpile.cache
 
 about:
   home: https://bitbucket.org/zzzeek/dogpile.cache
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: A caching front-end based on the Dogpile lock. 
+  summary: A caching front-end based on the Dogpile lock.
 
 extra:
   recipe-maintainers:
