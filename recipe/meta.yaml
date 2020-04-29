@@ -1,6 +1,6 @@
 {% set name = "dogpile.cache" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "b348835825c9dcd251d9aad1f89f257277ac198a3e35a61980ab4cb28c75216b" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "a9822f466ec740ed8945ed561a138441d54018f0667aa19df6d1c8f54086b32e" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install --no-deps --ignore-installed ."
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
