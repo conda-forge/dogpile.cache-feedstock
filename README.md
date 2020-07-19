@@ -5,7 +5,7 @@ Home: https://bitbucket.org/zzzeek/dogpile.cache
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A caching front-end based on the Dogpile lock.
 
