@@ -1,15 +1,15 @@
 About dogpile.cache
 ===================
 
-Home: https://bitbucket.org/zzzeek/dogpile.cache
+Home: https://github.com/sqlalchemy/dogpile.cache
 
-Package license: BSD-3-Clause
+Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dogpile.cache-feedstock/blob/master/LICENSE.txt)
 
 Summary: A caching front-end based on the Dogpile lock.
 
-
+Documentation: https://pythonhosted.org/dogpile.cache/
 
 Current build status
 ====================
@@ -116,5 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@asford](https://github.com/asford/)
 * [@brainstorm](https://github.com/brainstorm/)
 
