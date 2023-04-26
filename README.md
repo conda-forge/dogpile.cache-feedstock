@@ -1,11 +1,11 @@
-About dogpile.cache
-===================
+About dogpile.cache-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dogpile.cache-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sqlalchemy/dogpile.cache
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dogpile.cache-feedstock/blob/main/LICENSE.txt)
 
 Summary: A caching front-end based on the Dogpile lock.
 
