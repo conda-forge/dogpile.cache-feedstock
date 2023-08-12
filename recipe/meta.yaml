@@ -11,7 +11,7 @@ source:
   sha256: fd9022c0d9cbadadf20942391a95adaf296be80b42daa8e202f8de1c21f198b2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,6 +23,7 @@ requirements:
     - decorator >=4.0.0
     - python >=3.6
     - stevedore >=3.0.0
+    - typing_extensions >=4.0.1
 
 test:
   imports:
