@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dogpile.cache-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dogpile.cache-{{ version }}.tar.gz
   sha256: f84b8ed0b0fb297d151055447fa8dcaf7bae566d4dbdefecdcc1f37662ab588b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - decorator >=4.0.0
-    - python >=3.6
+    - python >={{ python_min }}
     - stevedore >=3.0.0
     - typing_extensions >=4.0.1
 
@@ -33,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/sqlalchemy/dogpile.cache
