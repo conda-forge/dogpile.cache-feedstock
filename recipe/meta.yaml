@@ -1,5 +1,5 @@
 {% set name = "dogpile.cache" %}
-{% set version = "1.3.3" %}
+{% set version = "1.4.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dogpile.cache-{{ version }}.tar.gz
-  sha256: f84b8ed0b0fb297d151055447fa8dcaf7bae566d4dbdefecdcc1f37662ab588b
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dogpile_cache-{{ version }}.tar.gz
+  sha256: e25c60e677a5e28ff86124765fbf18c53257bcd7830749cd5ba350ace2a12989
 
 build:
   number: 0
