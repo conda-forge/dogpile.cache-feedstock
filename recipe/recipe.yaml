@@ -36,6 +36,17 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - "*"
+  - script:
+      - pytest -m "not time_intensive"
+    requirements:
+      run:
+        - python  # test using the latest python
+        - pytest
+        - mako
+    files:
+      source:
+        - pyproject.toml  # pytest config
+        - tests/
 
 about:
   summary: A caching front-end based on the Dogpile lock.
