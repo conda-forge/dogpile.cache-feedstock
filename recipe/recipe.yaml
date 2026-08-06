@@ -1,26 +1,26 @@
 schema_version: 1
 
 context:
-  name: dogpile.cache
   version: "1.5.0"
 
 package:
-  name: ${{ name|lower }}
+  name: dogpile.cache
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dogpile_cache-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/d/dogpile.cache/dogpile_cache-${{ version }}.tar.gz
   sha256: 849c5573c9a38f155cd4173103c702b637ede0361c12e864876877d0cd125eec
 
 build:
   number: 0
   noarch: python
-  script: ${{ PYTHON }} -m pip install . -vv
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - pip
     - python ${{ python_min }}.*
+    - setuptools >=77.0.3
   run:
     - decorator >=4.0.0
     - python >=${{ python_min }}
@@ -42,7 +42,7 @@ about:
   license: MIT
   license_file: LICENSE
   homepage: https://github.com/sqlalchemy/dogpile.cache
-  documentation: https://pythonhosted.org/dogpile.cache/
+  documentation: https://dogpilecache.sqlalchemy.org
 
 extra:
   recipe-maintainers:
